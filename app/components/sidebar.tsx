@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
           ChatGPT Next
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          有问题联系客服：share15888
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -173,7 +173,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank">
+            <a href="http://faka.china-chatgpt.com/" target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
